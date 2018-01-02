@@ -49,7 +49,11 @@
       "icon": "build/icons/icon.ico"
     },
     "linux": {
-      "icon": "build/icons"
+      "icon": "build/icons",
+      "target": "snap"
+    },
+    "snap": {
+      "plugs": ["default", "desktop"]
     }
   },
   "dependencies": {
